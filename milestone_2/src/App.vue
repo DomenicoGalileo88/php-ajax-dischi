@@ -56,7 +56,7 @@ export default {
 
   data() {
     return {
-      API_url: "http://localhost/PHP/php-ajax-dischi/php_dischi/db.php",
+      API_url: "http://localhost/PHP/php-ajax-dischi/php_dischi/api.php",
       loading: false,
       dischi: null,
       error: "Sorry there are problems, please try again later....",
@@ -88,9 +88,9 @@ export default {
 
   mounted() {
     axios.get(this.API_url).then((response) => {
-      /* console.log(this); */
-      //console.log(response);
-      this.dischi = response.data.response;
+      //console.log(this);
+      console.log(response);
+      this.dischi = response.data;
       this.loading = true;
     });
   },
