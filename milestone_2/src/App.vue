@@ -56,7 +56,7 @@ export default {
 
   data() {
     return {
-      API_url: "http://localhost/PHP/php-ajax-dischi/php_dischi/",
+      API_url: "http://localhost/PHP/php-ajax-dischi/php_dischi/db.php",
       loading: false,
       dischi: null,
       error: "Sorry there are problems, please try again later....",
