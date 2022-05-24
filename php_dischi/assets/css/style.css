@@ -43,6 +43,7 @@ main img {
   background-color: #1e2d3b;
   border: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .card_title {

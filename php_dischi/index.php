@@ -40,9 +40,12 @@ include __DIR__ . '/db.php';
                                 </small>
                             </div>
                         </div>
+                        <!-- /.card -->
                     </div>
+                    <!-- /.col -->
                     <?php endforeach; ?>
             </div>
+            <!-- /.row -->
         </div>
         <!-- /.container -->
     </main>
